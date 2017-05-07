@@ -31,8 +31,7 @@ let TodoManagement = React.createClass({
             },
 
             success: function (result) {
-
-                this.setState({data: this.state.data.concat([data])});
+                this.setState({data: result.data});
             }.bind(this),
             error: function (xhr, status, err) {
                 console.error(this.props.update_url, status, err.toString());
@@ -58,7 +57,7 @@ let TodoManagement = React.createClass({
                 this.setState({data: result.data});
             }.bind(this),
             error: function (xhr, status, err) {
-                console.error(this.props.update_url, status, err.toString());
+                console.error(this.props.url + '/' + e.currentTarget.getAttribute('data-id'), status, err.toString());
             }.bind(this)
         });
     },
@@ -77,21 +76,21 @@ let TodoManagement = React.createClass({
                 this.setState({data: result.data});
             }.bind(this),
             error: function (xhr, status, err) {
-                console.error(this.props.update_url, status, err.toString());
+                console.error(this.props.url + '/' + e.currentTarget.getAttribute('data-id') + '/update_status', status, err.toString());
             }.bind(this)
         });
     },
 
     deleteTodo: function (data) {
         $.ajax({
-            url: this.props.delete_url,
+            url: this.props.url + '/' + e.currentTarget.getAttribute('data-id'),
             type: 'delete',
             dataType: 'json',
             success: function (result) {
                 this.setState({data: result.data});
             }.bind(this),
             error: function (xhr, status, err) {
-                console.error(this.props.update_url, status, err.toString());
+                console.error(this.props.url + '/' + e.currentTarget.getAttribute('data-id'), status, err.toString());
             }.bind(this)
         });
     },
@@ -120,15 +119,15 @@ let TodoList = React.createClass({
         for (var i in data) {
             if (data[i].status === 'todo') {
                 todoNodes.push(<Todo id={data[i].id} name={data[i].name} updateTodo={updateTodo}
-                                     updateStatus={updateStatus}
+                                     updateStatus={updateStatus} key={data[i].id}
                                      order={data[i].order}>{data[i].status} </Todo>);
             } else if (data[i].status === 'doing') {
                 doingNodes.push(<Todo id={data[i].id} name={data[i].name} updateTodo={updateTodo}
-                                      updateStatus={updateStatus}
+                                      updateStatus={updateStatus} key={data[i].id}
                                       order={data[i].order}>{data[i].status} </Todo>);
             } else {
                 doneNodes.push(<Todo id={data[i].id} name={data[i].name} updateTodo={updateTodo}
-                                     updateStatus={updateStatus}
+                                     updateStatus={updateStatus} key={data[i].id}
                                      order={data[i].order}>{data[i].status} </Todo>);
 
             }

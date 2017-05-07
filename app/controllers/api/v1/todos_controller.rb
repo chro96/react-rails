@@ -7,7 +7,7 @@ class Api::V1::TodosController < ApplicationController
 
   def create
     Todo.create(todo_params)
-    # return create Todo
+    @data = Todo.all.orderd
   end
 
   def update
