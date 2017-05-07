@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8363678c-e61c-4c31-8ae9-f462b6292729" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/api/v1/todos/create.json.jbuilder" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/todos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/todos_controller.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -215,8 +213,8 @@
           <file leaf-file-name="todo_management.js.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="605">
-                  <caret line="146" column="31" lean-forward="true" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+                <state relative-caret-position="246">
+                  <caret line="178" column="101" lean-forward="false" selection-start-line="178" selection-start-column="101" selection-end-line="178" selection-end-column="101" />
                   <folding />
                 </state>
               </provider>
@@ -276,6 +274,7 @@
       <find>target</find>
       <find>todo.</find>
       <find>add</find>
+      <find>form</find>
     </findStrings>
     <replaceStrings>
       <replace>order</replace>
@@ -967,12 +966,12 @@
       <updated>1493943788699</updated>
       <workItem from="1493943790812" duration="11056000" />
       <workItem from="1494010884275" duration="22282000" />
-      <workItem from="1494186508795" duration="1423000" />
+      <workItem from="1494186508795" duration="3340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34761000" />
+    <option name="totallyTimeSpent" value="36678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1639" height="969" extended-state="0" />
@@ -1424,8 +1423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="146" column="31" lean-forward="true" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+        <state relative-caret-position="246">
+          <caret line="178" column="101" lean-forward="false" selection-start-line="178" selection-start-column="101" selection-end-line="178" selection-end-column="101" />
           <folding />
         </state>
       </provider>

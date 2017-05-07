@@ -101,8 +101,8 @@ let TodoManagement = React.createClass({
                 <div className="page-header">
                     <h1>ToDo管理アプリ</h1>
                 </div>
-                <TodoList data={this.state.data} updateTodo={this.updateTodo} updateStatus={this.updateStatus}/>
-                <TodoForm createTodo={this.createTodo}/>
+                <TodoList data={this.state.data} updateTodo={this.updateTodo} updateStatus={this.updateStatus}
+                          createTodo={this.createTodo}/>
             </div>
         );
     }
@@ -132,6 +132,8 @@ let TodoList = React.createClass({
 
             }
         }
+        todoNodes.push(<TodoForm createTodo={this.props.createTodo} key="create_form"/>)
+
         return (
             <div className="row">
                 <div className="col-xs-4">
@@ -167,24 +169,20 @@ let TodoForm = React.createClass({
 
     render: function () {
         return (
-            <div className="row">
-                <div className="col-xs-4">
-                    <div className="well bs-component">
-                        <form className="form-horizontal" onSubmit={this.handleSubmit}>
-                            <fieldset>
-                                新規作成
-                                <div className="form-group is-empty col-md-12">
-                                    <div class="input-group">
-                                        <span class="input-group-addon">タイトル</span>
-                                        <input className="form-control" id="name" type="text" placeholder="TODO TITLE"
-                                               ref="name"/>
-                                    </div>
-                                    <input className="btn btn-primary btn-raised" type="submit" value="作成"/>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                </div>
+
+            <div className="well bs-component">
+                <form className="form-horizontal" onSubmit={this.handleSubmit}>
+                    <fieldset>
+                        <div className="form-group is-empty col-md-12">
+                            <div class="input-group">
+                                <span class="input-group-addon">NEW TODO</span>
+                                <input className="form-control" id="name" type="text" placeholder="内容"
+                                       ref="name"/>
+                            </div>
+                            <input className="btn btn-primary btn-raised" type="submit" value="作成"/>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         );
     }
