@@ -206,23 +206,23 @@ let Todo = React.createClass({
         return (
             <div className="panel panel-primary">
                 <div className="panel-heading">
-                    <form className="panel-title">
+                    <div className="panel-title">
                         <input className="panel-input" type="text" ref='name'
                                defaultValue={this.props.name}
                                onKeyPress={this.updateTodoName} data-id={this.props.id}
                                style={{border: 'none'}}
                         />
-                    </form>
+                    </div>
                 </div>
                 <div className="panel-body">
                     <label className="label-floating">優先順位</label>
-                    <form className="todoOrder">
+                    <div className="todoOrder">
                         <input type="text" ref='order'
                                defaultValue={this.props.order}
                                onKeyPress={this.updateTodoOrder} data-id={this.props.id}
                                style={{border: 'none'}}
                         />
-                    </form>
+                    </div>
                 </div>
                 <div className="btn-group btn-group-justified btn-group-raised">
                     <a data-status="todo" data-id={this.props.id} onClick={this.updateTodoStatus}

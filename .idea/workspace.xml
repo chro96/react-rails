@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8363678c-e61c-4c31-8ae9-f462b6292729" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -19,7 +18,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.34721288">
+    <splitter split-orientation="horizontal" split-proportion="0.35222977">
       <split-first>
         <splitter split-orientation="vertical" split-proportion="0.5">
           <split-first>
@@ -73,14 +72,14 @@
               <file leaf-file-name="todos_controller.rb" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/todos_controller.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="150">
-                      <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                    <state relative-caret-position="216">
+                      <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="16" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="create.json.jbuilder" pinned="false" current-in-tab="true">
+              <file leaf-file-name="create.json.jbuilder" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/views/api/v1/todos/create.json.jbuilder">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="0">
@@ -90,7 +89,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="update_status.json.jbuilder" pinned="false" current-in-tab="false">
+              <file leaf-file-name="update_status.json.jbuilder" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/api/v1/todos/update_status.json.jbuilder">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="0">
@@ -213,8 +212,8 @@
           <file leaf-file-name="todo_management.js.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="246">
-                  <caret line="178" column="101" lean-forward="false" selection-start-line="178" selection-start-column="101" selection-end-line="178" selection-end-column="101" />
+                <state relative-caret-position="-1385">
+                  <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -275,6 +274,9 @@
       <find>todo.</find>
       <find>add</find>
       <find>form</find>
+      <find>updateStatus</find>
+      <find>updateTodoStatus</find>
+      <find>updateTodoOrder</find>
     </findStrings>
     <replaceStrings>
       <replace>order</replace>
@@ -966,12 +968,12 @@
       <updated>1493943788699</updated>
       <workItem from="1493943790812" duration="11056000" />
       <workItem from="1494010884275" duration="22282000" />
-      <workItem from="1494186508795" duration="3340000" />
+      <workItem from="1494186508795" duration="8139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36678000" />
+    <option name="totallyTimeSpent" value="41477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1639" height="969" extended-state="0" />
@@ -1365,14 +1367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/api/v1/todos/update_status.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="70" lean-forward="false" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20170505121128_create_todos.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1397,14 +1391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/todos_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/api/v1/todos/index.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1421,10 +1407,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/todos_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/api/v1/todos/update_status.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="70" lean-forward="false" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="178" column="101" lean-forward="false" selection-start-line="178" selection-start-column="101" selection-end-line="178" selection-end-column="101" />
+        <state relative-caret-position="-1385">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding />
         </state>
       </provider>
