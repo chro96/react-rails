@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8363678c-e61c-4c31-8ae9-f462b6292729" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -93,7 +94,7 @@
                 <entry file="file://$PROJECT_DIR$/app/views/api/v1/todos/update_status.json.jbuilder">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="0">
-                      <caret line="0" column="70" lean-forward="false" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
+                      <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
                       <folding />
                     </state>
                   </provider>
@@ -143,7 +144,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="20170505121128_create_todos.rb" pinned="false" current-in-tab="true">
+              <file leaf-file-name="20170505121128_create_todos.rb" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/db/migrate/20170505121128_create_todos.rb">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="60">
@@ -153,11 +154,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+              <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/Gemfile">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="585">
-                      <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+                    <state relative-caret-position="170">
+                      <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
                       <folding />
                     </state>
                   </provider>
@@ -212,8 +213,8 @@
           <file leaf-file-name="todo_management.js.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1385">
-                  <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+                <state relative-caret-position="273">
+                  <caret line="71" column="40" lean-forward="true" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -300,7 +301,6 @@
         <option value="$PROJECT_DIR$/app/views/api/v1/todos/index.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/views/api/v1/todos/update.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/views/todo_management/index.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
@@ -311,6 +311,7 @@
         <option value="$PROJECT_DIR$/app/controllers/api/v1/todos_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/api/v1/todos/create.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -968,12 +969,12 @@
       <updated>1493943788699</updated>
       <workItem from="1493943790812" duration="11056000" />
       <workItem from="1494010884275" duration="22282000" />
-      <workItem from="1494186508795" duration="8139000" />
+      <workItem from="1494186508795" duration="10399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41477000" />
+    <option name="totallyTimeSpent" value="43737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1639" height="969" extended-state="0" />
@@ -1280,14 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/config/manifest.js" />
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
@@ -1339,8 +1332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <marker date="1494186906000" expanded="true" signature="30:443" ph="do ... end" />
             <marker date="1494186906000" expanded="true" signature="257:439" ph="do ... end" />
@@ -1363,14 +1356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170505121128_create_todos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1415,18 +1400,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/api/v1/todos/update_status.json.jbuilder">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="70" lean-forward="false" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
+        <state relative-caret-position="273">
+          <caret line="71" column="40" lean-forward="true" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/todo_management.js.jsx">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170505121128_create_todos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1385">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/api/v1/todos/update_status.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
           <folding />
         </state>
       </provider>
